@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="menu">
+            <li><a href="">Inicio</a></li>
+            <li><a href="#oferta">Ofertas</a></li>
+            <li><a href="#galeria">galeria</a></li>
+            <li><a href="#pedidos">Pedidos</a></li>
+            <li><a href="#datos">Datos</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-texto">
+            <h1>Restaurante de comida</h1>
+            <h2>El mejor del pais</h2>
+        </div>
+    </header>
+
+    <section class="contenedor" id="oferta">
+        <h2 class="titulo">Ofertas</h2>
+        <div class="contenedor-card">
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-basket2"></i>
+                </div>
+                <h3> oferta 1</h3>
+                <p>$5990</p>
+                <img src="img/of1.png" alt="30px" width="80%">
+                <a href="" class="boton">Pedir</a>
+            </article>
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-egg-fried"></i>
+                </div>
+                <h3> Oferta 2</h3>
+                <p>$9990</p>
+                <img src="img/of2.jpg" alt="30px" width="80%">
+                <a href="" class="boton">Pedir</a>
+            </article>
+            <article class="card">
+                <div class="espacio">
+                    <i class="bi bi-backpack2"></i>
+                </div>
+                <h3> Oferta 3</h3>
+                <p>$4990</p>
+                <img src="img/of3.jpg" alt="30px" width="80%">
+                <a href="" class="boton">Pedir</a>
+            </article>
+        </div>
+    </section>
+
+    <section class="galeria" id="galeria">
+        <div class="contenedor">
+            <h2 class="titulo"> Galería de Imagenes</h2>
+            <div class="contenedor-galeria">
+                <img src="img/img1.jpg" alt="">
+                <img src="img/img2.webp" alt="">
+                <img src="img/img3.jpg" alt="">
+                <img src="img/img4.webp" alt="">
+                <img src="img/img5.jpeg" alt="">
+                <img src="img/img6.jpeg" alt="">
+                <img src="img/img7.jpg" alt="">
+                <img src="img/img8.jpg" alt="">
+                <img src="img/img9.webp" alt="">
+                <img src="img/img10.jpg" alt="">
+                <img src="img/img11.webp" alt="">
+                <img src="img/img12.avif" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- contacto --> 
+    <section class="pedido" id="pedidos">
+        <div class="contenedor">
+            <h2 class="titulo">Formulario de pedido</h2>
+            <form class="formulario">
+                <input type="text" id="nombre" name="nom" class="input input-ancho" placeholder="Ingresa nombre">
+                <input type="text" id="telefono" name="tel" class="input input-ancho" placeholder="Ingresa telefono">
+                <input type="text" id="email" name="mail" class="input input-ancho" placeholder="Ingresa email">
+                <input type="text" id="direccion" name="dir" class="input input-ancho" placeholder="Ingresa direccion">
+                <textarea name="msj" id="msj" class="input textarea-ancho" placeholder="Ingresa pedidos a llevar" cols="30"
+                    rows="10"></textarea>
+                <input type="reset" value="Limpiar" class="boton-pedido">
+                <input type="submit" value="Enviar" class="boton-pedido">
+            </form>
+        </div>
+    </section>
+    <footer>
+        <ul class="footer">
+            <li><a href="">Inicio</a></li>
+            <li><a href="">+56 9 1234 5678</a></li>
+            <li><a href="">ejemplo@gmail.com</a></li>
+            <li><a href="">calle 1234</a></li>
+            <li><a href="">Links</a></li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
